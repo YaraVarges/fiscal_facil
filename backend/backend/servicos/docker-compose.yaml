@@ -1,0 +1,45 @@
+version: '3'
+services:
+  cest:
+    image: fiscal
+    build: ./dockerfiles/servicos/
+    hostname: cest
+    ports:
+      - '5002:5000'
+    volumes:
+      - './cest:/servico'
+    command: python3 servico.py
+  cfop:
+    image: fiscal
+    build: ./dockerfiles/servicos/
+    hostname: cfop
+    ports:
+      - '5003:5000'
+    volumes:
+      - './cfop:/servico'
+    command: python3 servico.py
+  cst:
+    image: fiscal
+    build: ./dockerfiles/servicos/
+    hostname: cst
+    ports:
+      - '5004:5000'
+    volumes:
+      - './cst:/servico'
+    command: python3 servico.py
+  ncm:
+    image: fiscal
+    build: ./dockerfiles/servicos/
+    hostname: ncm
+    ports:
+      - '5005:5000'
+    volumes:
+      - './ncm:/servico'
+    command: python3 servico.py
+  bancodados:
+    image: mysql
+    hostname: bancodados
+    ports:
+      - '5006:3306'
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin

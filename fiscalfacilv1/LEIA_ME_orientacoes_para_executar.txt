@@ -1,0 +1,56 @@
+1 - Iniciar projeto de expo deve executar no prompt de comando a instalação do Expo com o comando abaixo:
+
+#npm install -g expo-cli
+
+2 - Em seguida escolher o diretorio de que deseja rodar a aplicação e criar o projeto expo com o comando abaixo:
+
+#expo init fiscalfacilv1
+
+3 - Escolher o template blank
+
+3.1 - Finalizar instalação Expo
+
+4 - Iniciar containers do docker executando compose Up no arquivo 'backend\servicos\docker-compose.yaml'
+
+4.1 - Com os containers do serviços (ncm, cfop, cest, cst) rodando, criar conexão com o banco de dados:
+Utilizei o MySQL Workbench 8.0
+Nome da conexão: bancodados
+hostname: 127.0.0.1
+Port: 5006
+Username: root
+password: admin
+
+4.2 - Após conexão criar o schema "fiscal4" e executar o script de criação do arquivo 'backend\script.sql'
+
+
+4.3 - Em seguida entrar no diretorio criado e iniciar a aplicação:
+
+#cd fiscalfacilv1
+#npm start 
+ou 
+#expo start
+
+5 - Instalar dependencias abaixo na pasta 'fiscalfacilv1', foram as dependencias necessarias para minha aplicação:
+
+npm add react-navigation
+npm add react-navigation-stack
+npm install react-native-elements  
+npm install react-native-safe-area-context@4.2.4 (Versão necessária para o EXPO)
+npm install react-native-gesture-handler@2.2.1 (Versão necessária para o EXPO)
+npm install react-native-vector-icons --legacy-peer-deps
+npm install react-native link react-native-vector-icons   
+npm install --save styled-components 
+npm install @types/styled-components-react-native -D
+
+OBS: Deixei o arquivo package.json diponivel dentro de fiscalfacilv1 para ajudar em relação as dependencias.
+
+6 - Reiniciar aplicação dentro da pasta '\fiscalfacilv1' com o comando:
+
+#npm start 
+ou 
+#expo start
+
+7 - Escanear QR-code no aplicativo Expo Go no celular
+
+OBS: Copiar os Arquivos de fiscalfacilv1.rar para a pasta criada no seu diretorio professor.
+Qualquer dificuldade para executar meu projeto professor, pode entrar em contato, a qualquer momento, que ajudo.

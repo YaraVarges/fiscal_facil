@@ -1,0 +1,130 @@
+{
+    "CST": [
+        {
+            "id": "1",
+            "codigo": "101",
+            "descricao": "Tributada pelo Simples Nacional com permissão de crédito",
+            "regime": "Regime Tributário: Simples Nacional"
+        },
+        {
+            "id": "2",
+            "codigo": "102",
+            "descricao": "Tributada pelo Simples Nacional sem permissão de crédito",
+            "regime": "Regime Tributário: Simples Nacional"
+        },
+        {
+            "id": "3",
+            "codigo": "103",
+            "descricao": "Isenção do ICMS no Simples Nacional para faixa de receita bruta",
+            "regime": "Regime Tributário: Simples Nacional"
+        },
+        {
+            "id": "4",
+            "codigo": "201",
+            "descricao": "Tributada pelo Simples Nacional com permissão de crédito e com cobrança do ICMS por substituição tributária",
+            "regime": "Regime Tributário: Simples Nacional"
+        },
+        {
+            "id": "5",
+            "codigo": "202",
+            "descricao": "Tributada pelo Simples Nacional sem permissão de crédito e com cobrança do ICMS por substituição tributária",
+            "regime": "Regime Tributário: Simples Nacional"
+        },
+        {
+            "id": "6",
+            "codigo": "203",
+            "descricao": "Isenção do ICMS no Simples Nacional para faixa de receita bruta e com cobrança do ICMS por substituição tributária",
+            "regime": "Regime Tributário: Simples Nacional"
+        },
+        {
+            "id": "7",
+            "codigo": "300",
+            "descricao": "Imune",
+            "regime": "Regime Tributário: Simples Nacional"
+        },
+        {
+            "id": "8",
+            "codigo": "400",
+            "descricao": "Não tributada pelo Simples Nacional",
+            "regime": "Regime Tributário: Simples Nacional"
+        },
+        {
+            "id": "9",
+            "codigo": "500",
+            "descricao": "ICMS cobrado anteriormente por substituição tributária (substituído) ou por antecipação",
+            "regime": "Regime Tributário: Simples Nacional"
+        },
+        {
+            "id": "10",
+            "codigo": "900",
+            "descricao": "Outros",
+            "regime": "Regime Tributário: Simples Nacional"
+        },
+        {
+            "id": "11",
+            "codigo": "00",
+            "descricao": "Tributada integralmente",
+            "regime": "Regime Tributário: Normal"
+        },
+        {
+            "id": "12",
+            "codigo": "10",
+            "descricao": "Tributada e com cobrança do ICMS por substituição tributária",
+            "regime": "Regime Tributário: Normal"
+        },
+        {
+            "id": "13",
+            "codigo": "20",
+            "descricao": "Com redução da BC",
+            "regime": "Regime Tributário: Normal"
+        },
+        {
+            "id": "14",
+            "codigo": "30",
+            "descricao": "Isenta / não tributada e com cobrança do ICMS por substituição tributária",
+            "regime": "Regime Tributário: Normal"
+        },
+        {
+            "id": "15",
+            "codigo": "40",
+            "descricao": "Isenta",
+            "regime": "Regime Tributário: Normal"
+        },
+        {
+            "id": "16",
+            "codigo": "41",
+            "descricao": "Não tributada",
+            "regime": "Regime Tributário: Normal"
+        },
+        {
+            "id": "17",
+            "codigo": "50",
+            "descricao": "Com suspensão",
+            "regime": "Regime Tributário: Normal"
+        },
+        {
+            "id": "18",
+            "codigo": "51",
+            "descricao": "Com diferimento",
+            "regime": "Regime Tributário: Normal"
+        },
+        {
+            "id": "19",
+            "codigo": "60",
+            "descricao": "ICMS cobrado anteriormente por substituição tributária",
+            "regime": "Regime Tributário: Normal"
+        },
+        {
+            "id": "20",
+            "codigo": "70",
+            "descricao": "Com redução da BC e cobrança do ICMS por substituição tributária",
+            "regime": "Regime Tributário: Normal"
+        },
+        {
+            "id": "21",
+            "codigo": "90",
+            "descricao": "Outras",
+            "regime": "Regime Tributário: Normal"
+        }
+    ]
+}
