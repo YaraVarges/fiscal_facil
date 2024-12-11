@@ -1,8 +1,13 @@
-import axios from 'axios';
+import axios from "axios";
 
-// Configura a URL base da API
-const api = axios.create({
-  baseURL: 'https://', // Substitua pela URL da sua API
-});
+export const fetchCFOPData = async () => {
+  try {
+    const response = await axios.get(
+      "https://"
+    );
+    return response.data;
+  } catch (error) {
+    throw new Error("Erro ao buscar dados do CFOP");
+  }
+};
 
-export default api;
