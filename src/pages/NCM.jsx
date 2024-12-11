@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import SearchBar from "../components/Search"; 
 import ncmData from "../data/ncmvigente.json"; 
 
