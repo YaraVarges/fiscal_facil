@@ -7,7 +7,7 @@ export const fetchCFOPData = async () => {
     );
     return response.data;
   } catch (error) {
-    throw new Error("Erro ao buscar dados do CFOP");
+    throw new Error("Erro ao buscar dados");
   }
 };
 
