@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import SearchBar from "../components/Search"; 
-import CESTData from "../data/cestvigente.json"; 
+import csosnData from "../data/csosnvigente.json";
 
-const CEST = () => {
+const CSOSN = () => {
     const [results, setResults] = useState([]);
     const [isDataLoaded, setIsDataLoaded] = useState(false); // Variável para controlar o carregamento dos dados do json, e não iniciar carregando todos os dados.
 
-    // Função para formatar o código CEST com pontos, para poder receber pesquisa sem os pontos
+    // Função para formatar o código NCM com pontos, para poder receber pesquisa sem os pontos
     const formatCodigo = (codigo) => {
-        return codigo.replace(/(\d{2})(\d{3})(\d{2})/, "$1.$2.$3");
+        return codigo.replace(/(\d{4})(\d{2})(\d{2})/, "$1.$2.$3");
     };
 
     // Função de pesquisa
@@ -21,29 +21,24 @@ const CEST = () => {
         // Remover os pontos da pesquisa
         const cleanedSearchTerm = searchTerm.replace(/\./g, "");
 
-        const filtered = CESTData.filter(
+        const filtered = csosnData.filter(
         (item) =>
-            item.CEST.replace(/\./g, "").includes(cleanedSearchTerm) ||
-            item.Descricao_CEST.toLowerCase().includes(searchTerm.toLowerCase())
+            item.CodigoCSOSN.replace(/\./g, "").includes(cleanedSearchTerm) ||
+            item.Descricao_CSOSN.toLowerCase().includes(searchTerm.toLowerCase())
         );
         setResults(filtered); // Atualiza os resultados no State
     };
 
     return (
         <div className="p-8 bg-gray-100 min-h-screen">
-        <h1 className="text-2xl font-bold mb-8">Busca de CEST - Código Especificador da Substituição Tributária</h1>
-        <SearchBar onSearch={handleSearch} placeholder="Digite o código ou descrição do CEST" />
+        <h1 className="text-2xl font-bold mb-8">Busca de CSOSN - Código de Situação da Operação no Simples Nacional</h1>
+        <SearchBar onSearch={handleSearch} placeholder="Digite o código ou descrição do CSOSN" />
         <ul>
             {results.length > 0 ? (
             results.map((item, index) => (
-                <>
-                    <li key={index} className="border-b border-gray-300 py-2">
-                    <strong>Segmento</strong>: {item.Segmento_CEST} <br />
-                    <strong>CEST {formatCodigo(item.CEST)}</strong>: {item.Descricao_CEST}
-                    </li>
-                </>
-                
-                
+                <li key={index} className="border-b border-gray-300 py-2">
+                <strong>{formatCodigo(item.CodigoCSOSN)}</strong>: {item.Descricao_CSOSN}
+                </li>
             ))
             ) : (
             <p>Nenhum resultado encontrado ainda, iniciei sua busca!</p>
@@ -53,4 +48,4 @@ const CEST = () => {
     );
     };
 
-export default CEST;
+export default CSOSN;

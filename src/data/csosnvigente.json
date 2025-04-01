@@ -1,0 +1,42 @@
+[
+    {
+        "CodigoCSOSN": "101",
+        "Descricao_CSOSN": "Tributação pelo Simples com Permissão de Crédito"
+    },
+    {
+        "CodigoCSOSN": "102",
+        "Descricao_CSOSN": "Tributação pelo Simples sem Permissão de Crédito"
+    },
+    {
+        "CodigoCSOSN": "103",
+        "Descricao_CSOSN": "Isenção do ICMS no Simples para receita bruta"
+    },
+    {
+        "CodigoCSOSN": "201",
+        "Descricao_CSOSN": "Simples Nacional com Permissão de Crédito e ICMS por Substituição Tributária"
+    },
+    {
+        "CodigoCSOSN": "202",
+        "Descricao_CSOSN": "Simples Nacional sem Permissão de crédito e com cobrança de ICMS por substituição tributária"
+    },
+    {
+        "CodigoCSOSN": "203",
+        "Descricao_CSOSN": "Isenção do ICMS no Simples para faixa da Receita Bruta e com cobrança de ICMS por substituição tributária"
+    },
+    {
+        "CodigoCSOSN": "300",
+        "Descricao_CSOSN": "Imunidade"
+    },
+    {
+        "CodigoCSOSN": "400",
+        "Descricao_CSOSN": "Não tributado pelo Simples"
+    },
+    {
+        "CodigoCSOSN": "500",
+        "Descricao_CSOSN": "ICMS cobrado anteriormente por substituição"
+    },
+    {
+        "CodigoCSOSN": "900",
+        "Descricao_CSOSN": "Outros (neste código estão todas as operações que não se encaixam nos demais já citados)"
+    }
+]

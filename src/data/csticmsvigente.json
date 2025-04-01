@@ -1,0 +1,46 @@
+[
+    {
+        "CodigoCST": "00",
+        "Descricao_CST": "Tributada integralmente"
+    },
+    {
+        "CodigoCST": "10",
+        "Descricao_CST": "Tributada e com cobrança do ICMS por substituição tributária"
+    },
+    {
+        "CodigoCST": "20",
+        "Descricao_CST": "Com redução da BC"
+    },
+    {
+        "CodigoCST": "30",
+        "Descricao_CST": "Isenta / não tributada e com cobrança do ICMS por substituição tributária"
+    },
+    {
+        "CodigoCST": "40",
+        "Descricao_CST": "Isenta"
+    },
+    {
+        "CodigoCST": "41",
+        "Descricao_CST": "Não tributada"
+    },
+    {
+        "CodigoCST": "50",
+        "Descricao_CST": "Com suspensão"
+    },
+    {
+        "CodigoCST": "51",
+        "Descricao_CST": "Com diferimento"
+    },
+    {
+        "CodigoCST": "60",
+        "Descricao_CST": "ICMS cobrado anteriormente por substituição tributária"
+    },
+    {
+        "CodigoCST": "70",
+        "Descricao_CST": "Com redução da BC e cobrança do ICMS por substituição tributária"
+    },
+    {
+        "CodigoCST": "90",
+        "Descricao_CST": "Outras"
+    }
+]

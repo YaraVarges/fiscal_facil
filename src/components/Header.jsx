@@ -18,7 +18,7 @@ const Header = () => {
             <a href="/cfop" className="text-white hover:underline mx-4">
                 CFOP
             </a>
-            <a href="/cst" className="text-white hover:underline mx-4">
+            <a href="/csticms" className="text-white hover:underline mx-4">
                 CST
             </a>
             <a href="/csosn" className="text-white hover:underline mx-4">
