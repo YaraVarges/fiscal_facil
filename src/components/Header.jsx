@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <header className="bg-amber-700 text-white py-4 px-6 shadow-lg">
         <div className="container mx-auto flex justify-between items-center">
-            <h1 className="text-xl font-bold">Fiscal Fácil</h1>
+            <h1 className="text-xl font-bold"><a href="/">Fiscal Fácil</a></h1>
             <nav>
             <a href="/" className="text-white hover:underline mx-4">
                 Home
