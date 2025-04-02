@@ -41,7 +41,7 @@ const CSTICMS = () => {
                 </li>
             ))
             ) : (
-            <p>Nenhum resultado encontrado ainda, iniciei sua busca!</p>
+            <p>Nenhum resultado encontrado ainda, iniciei sua busca ou clique em buscar para visualizar todos os CST!</p>
             )}
         </ul>
         </div>
