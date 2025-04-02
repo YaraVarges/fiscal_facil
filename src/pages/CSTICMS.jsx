@@ -32,7 +32,7 @@ const CSTICMS = () => {
     return (
         <div className="p-8 bg-gray-100 min-h-screen">
         <h1 className="text-2xl font-bold mb-8">Busca de CST - Código da Situação Tributária</h1>
-        <SearchBar onSearch={handleSearch} placeholder="Digite o código ou descrição do CST" />
+        <SearchBar onSearch={handleSearch} placeholder="Digite o código ou descrição" />
         <ul>
             {results.length > 0 ? (
             results.map((item, index) => (
