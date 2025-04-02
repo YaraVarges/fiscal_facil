@@ -13,7 +13,7 @@ const App = () => {
   return (
     <Router>
       <Header />
-      <main className="flex-grow p-4 md:p-8 bg-gray-50">
+      <main className="flex-grow bg-gray-50">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ncm" element={<NCM />} />

@@ -30,7 +30,7 @@ const CEST = () => {
     };
 
     return (
-        <div className="p-8 bg-gray-100 min-h-screen">
+        <div className="p-8 bg-gray-100 min-h-screen dark:bg-gray-900 dark:text-gray-100">
         <h1 className="text-2xl font-bold mb-8">Busca de CEST - Código Especificador da Substituição Tributária</h1>
         <SearchBar onSearch={handleSearch} placeholder="Digite o código ou descrição" />
         <ul>

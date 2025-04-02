@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { ThemeButton } from "./ThemeButton";
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,7 +9,7 @@ const Header = () => {
     };
 
     return (
-        <header className="bg-amber-700 text-white py-4 px-6 shadow-lg">
+        <header className="bg-amber-700 dark:bg-amber-900 text-white p-4 px-6 shadow-lg">
         <div className="container mx-auto flex justify-between items-center">
             <h1 className="text-xl font-bold">
             <a href="/">Fiscal Fácil</a>
@@ -89,10 +90,9 @@ const Header = () => {
         <a href="/csosn" className={linkClasses}>
             CSOSN
         </a>
-        <a href="/dicas" className={linkClasses}>
-            Dicas
-        </a>
+        <ThemeButton />
         </>
+        
     );
 };
 

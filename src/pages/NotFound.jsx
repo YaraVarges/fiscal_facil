@@ -1,6 +1,6 @@
 export default function NotFound() {
     return (
-        <div className="text-center py-20">
+        <div className="text-center py-20 dark:bg-gray-900 dark:text-gray-100">
             <h1 className="text-4xl font-bold text-amber-700">404</h1>
             <p className="text-xl mt-4">Página não encontrada!</p>
             <a
