@@ -13,7 +13,7 @@ const App = () => {
   return (
     <Router>
       <Header />
-      <main className="flex-grow">
+      <main className="flex-grow p-4 md:p-8 bg-gray-50">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ncm" element={<NCM />} />
@@ -23,7 +23,7 @@ const App = () => {
           <Route path="/cest" element={<CEST />} />
         </Routes>
       </main>
-      <Footer />
+      <Footer className="bg-amber-700 text-white p-4"/>
     </Router>
   );
 };
